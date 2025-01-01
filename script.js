@@ -26,7 +26,7 @@ console.log = function(message) {
 for (let i = 1; i <= 5; i++) {
 
 
-    let guessNumber = parseInt(prompt("Enter a number between 1 to 5: "));
+    let guessNumber = parseInt(prompt("Enter a number between 1 to 5: \n (For 05 Times)"));
     let rendomNumber = Math.floor(Math.random() * 5) + 1;
 
     if (guessNumber === rendomNumber) {
